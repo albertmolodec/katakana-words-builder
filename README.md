@@ -1,8 +1,6 @@
 # katakana-words-builder
 
-2015 lol.
-
-Convert words to lists of words fitting the condition.
+Hello from 2015, lol.
 
 ## Usage
 
@@ -10,4 +8,5 @@ Convert words to lists of words fitting the condition.
 g++ KTKN.cpp -o katakana
 ./katakana
 ```
+
 Look at `output.txt`.
