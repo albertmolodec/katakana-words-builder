@@ -11,7 +11,7 @@ string GetAlphabet() {
 	return "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
 }
 
-vector<string> GetSochet(string alphabet) {
+vector<string> GetCombination(string alphabet) {
 	string temp;
 	vector<string> v2;
 	for (int i = 0; i<33; i++) {
@@ -46,14 +46,14 @@ int main()
 
 	////////////////////////////
 	string alphabet = GetAlphabet();
-	vector<string> sochet = GetSochet(alphabet);
+	vector<string> combination = GetCombination(alphabet);
 	////////////////////////////
 
 	vector<string>::iterator it1, it2;
 	int count = 0;
 	vector<string> ResultWord;
 
-	for (it1 = sochet.begin(); it1 != sochet.end(); it1++)
+	for (it1 = combination.begin(); it1 != combination.end(); it1++)
 	{
 		count = 0;
 		ResultWord.clear();
